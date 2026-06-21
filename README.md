@@ -6,7 +6,7 @@
 
 This repository contains the official code and dataset links for the paper **"SurgVLA-Bench: Towards Evaluating Vision-Language-Action Models for Laparoscopic Surgical Robotics"**.
 
-SurgVLA-Bench is the first comprehensive benchmark specifically designed for evaluating Vision-Language-Action (VLA) models in laparoscopic surgical contexts. Built upon the SurRoL simulation platform, we construct a hierarchical task taxonomy ranging from atomic actions to complete surgical procedures. 
+SurgVLA-Bench is a comprehensive benchmark specifically designed for evaluating Vision-Language-Action (VLA) models in laparoscopic surgical contexts. Built upon the SurRoL simulation platform, we construct a hierarchical task taxonomy ranging from atomic actions to complete surgical procedures. 
 
 ## 📢 News
 * **[2026-06]** Our paper has been provisionally accepted for presentation at **MICCAI 2026**!
@@ -14,12 +14,12 @@ SurgVLA-Bench is the first comprehensive benchmark specifically designed for eva
 
 ## 📊 Dataset
 
-Unlike general robotics, the surgical domain previously lacked standardized datasets suitable for VLA model training and evaluation. We provide a comprehensive standardized dataset supporting multiple mainstream formats including RLDS, LeRobot, and 3D point cloud formats.
+Unlike general robotics, the surgical domain previously lacked standardized datasets suitable for VLA model training and evaluation. We provide a comprehensive standardized dataset supporting multiple mainstream formats including RLDS and LeRobot formats.
 
-The dataset contains over 800 complete trajectories comprising approximately 40,000 action frames across eight surgical tasks. 
+The dataset contains about 800 complete trajectories comprising approximately 40,000 action frames across eight surgical tasks. 
 
 You can access and download our full dataset from the `main` branch of our repository:
-🔗 **[Kanden1112/surg-vla-dataset](https://github.com/Kanden1112/surg-vla-dataset/tree/main)**
+🔗 **[Kanden1112/surg-vla-dataset](https://huggingface.co/datasets/Kanden1112/surg-vla-dataset)**
 
 ## 🛠️ Installation & Environment Setup
 
